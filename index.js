@@ -1,5 +1,8 @@
-const contactsService = require("./contacts");
-const { program } = require("commander");
+// const contactsService = require("./contacts");
+// const { program } = require("commander");
+
+import contactsService from "./contacts.js";
+import { program } from "commander";
 
 program
 	.option("-a, --action <type>", "choose action")
@@ -29,6 +32,10 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 		case "add":
 			const newContact = await contactsService.addContact({ name, email, phone });
 			console.table(newContact);
+			break;
+		case "update":
+			const updateContactById = await contactsService.updateContactById(id, { name, email, phone });
+			console.table(updateContactById);
 			break;
 		default:
 			console.warn("\x1B[31m Unknown action type!");
