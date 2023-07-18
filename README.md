@@ -12,6 +12,6 @@
 
 6. Добавляем контакт: https://monosnap.com/file/vpIh0mGmnmJ10KwroPt9P6t2lFb2UI;
 
-7. Обновляем контакт по id: https://monosnap.com/file/uxxEicTUstGjqklJbr5QcVNPbSXj7x;
+7. Обновляем контакт по id: https://monosnap.com/file/l1X4Bw65QagNBASugZfYMHvGhmR8Po;
 
 8. Обновляем контакт, если id не существует: https://monosnap.com/file/uawLtAAIiYsHtRko1LAUfgBykSeUaw;
